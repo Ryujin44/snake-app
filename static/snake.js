@@ -6,7 +6,7 @@
 	Command to execute: N/A
 
 */
-var name = prompt("Please enter your name: ", "Default");
+var name = prompt("Silahkan masukkan username: ", "Default");
 if (name.length === 0) {
 	name = "Default";
 }
